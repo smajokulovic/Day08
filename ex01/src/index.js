@@ -1,11 +1,13 @@
 function reusableFunction() {
-
-    reusableFunction = ("Hi Padawan!");
+    console.log("Hi Padawan!");
+    
+}
 
     // Write code below this line
     // Write code above this line
-}
-console.log("Hi Padawan!")
+
+reusableFunction();
+
 module.exports = reusableFunction;
 
 
